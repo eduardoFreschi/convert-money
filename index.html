@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>DevClub Convert Money</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>DevClub Convert Money</h1>
+            </header>
+
+            <main>
+                <label
+                    >Converter <b>de</b>
+                    <select>
+                        <option>R$ Real Brasileiro</option>
+                    </select>
+                </label>
+
+                <label
+                    >Converter <b>para</b>
+                    <select class="convert">
+                        <option value="USD">US$ Dólar americano</option>
+                        <option value="EUR">€ Euro</option>
+                        <option value="BTC">₿ Bitcoin</option>
+                    </select>
+                </label>
+
+                <label
+                    >Valor
+                    <input type="text" placeholder="R$ 10.000,00" />
+                </label>
+
+                <button type="button">Converter</button>
+
+                <section>
+                    <div>
+                        <img src="assets/brasil 2.png" />
+                        <p class="currency-name">Real</p>
+                        <p class="real-value currency-value">R$ 10.000,00</p>
+                    </div>
+
+                    <img class="arrow-img" src="assets/Vector.png" alt="seta" />
+
+                    <div>
+                        <img
+                            class="country-img"
+                            src="assets/united-states.png"
+                            alt="bandeira-pais-conversao"
+                        />
+                        <p class="title currency-name">Dólar Americano</p>
+                        <p class="convert-value currency-value">US$ 2.000,00</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
